@@ -35,17 +35,6 @@ pip install torch torchvision opencv-python pillow matplotlib pandas seaborn sci
 # Run training
 python emotion_recognition.py
 
-## File Structure
-
-├── emotion_recognition.py    # Main training script
-├── best_emotion_model.pth    # Best model weights
-├── final_emotion_model.pth   # Final model weights
-├── evaluation_results.json   # Evaluation metrics
-├── training_history.png      # Loss/accuracy curves
-├── confusion_matrix.png      # Confusion matrix
-├── context_similarities.png  # Context similarity visualization
-├── feature_space.png         # t-SNE feature visualization
-└── README.md                 # This file
 
 
 ## Key Features and Visualizations
